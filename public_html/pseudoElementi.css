@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-gen-2019, 16.37.38
+    Author     : tss
+*/
+
+span.nota{
+    background-color: yellow;
+    font-style: italic;
+    padding: 0px 0px   
+}
+span.nota:after{
+    content: '('attr(num)')';
+    font-size: 10px;
+    padding: 0px 5px;
+    vertical-align: super;
+    font-style: normal;
+    font-weight: bold;
+    color: yellow;
+}
+span.nota:hover:after{
+    color: black;
+}
+
+
+
+

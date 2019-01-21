@@ -25,6 +25,9 @@ span.nota:after{
 span.nota:hover:after{
     color: black;
 }
+span.nota:hover{
+    text-decoration: underline overline;
+}
 
 
 

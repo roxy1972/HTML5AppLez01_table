@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>NewTableStyle</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table{
+                border: solid 5px green;
+                border-spacing: 0px 0px;
+
+            }
+
+            td {
+                background-color: yellowgreen;
+                border: solid 1px black;
+                width: 30px;
+                height: 30px;
+                font-weight: bold;
+                color:  blue;
+                text-align: center;
+            }
+
+            td#cell {
+                background-color: orangered;
+                border: solid 3px blue;
+                font-size: 20px;
+                text-align: center;
+                color: yellow;
+
+            }
+
+            table#tab2 tr:nth-child(3) td:nth-child(4),
+            table#tab2 tr:nth-child(3) td:nth-child(5),
+            table#tab2 tr:nth-child(3) td:nth-child(6),
+            table#tab2 tr:nth-child(3) td:nth-child(7){
+                background-color: orange;
+                border: solid 3px deeppink
+            }
+            table#tab2 tr:nth-child(4) td:nth-child(4),
+            table#tab2 tr:nth-child(4) td:nth-child(7) {
+                background-color: orange;
+                border: solid 3px deeppink
+            }
+
+            table#tab2 tr:nth-child(6) td:nth-child(4),
+            table#tab2 tr:nth-child(6) td:nth-child(7) {
+                background-color: orange;
+                border: solid 3px deeppink
+            }
+            table#tab2 tr:nth-child(5) td:nth-child(4),
+            table#tab2 tr:nth-child(5) td:nth-child(5),
+            table#tab2 tr:nth-child(5) td:nth-child(6),
+            table#tab2 tr:nth-child(5) td:nth-child(7){
+                background-color: orange;
+                border: solid 3px deeppink
+            }
+            
+            table#tab3 tr td:nth-child(2n){
+                background-color: blue;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div>TODO write content</div>
+
+        <table>
+            <caption style="color: red; background-color: yellow">newTableStyle</caption>
+            <tr>
+                <td id="cell"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="cell"></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td id="cell"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="cell"></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td id="cell"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="cell"></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="cell"></td>
+                <td></td>
+                <td></td>
+                <td id="cell"></td>
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td  id="cell"></td>
+                <td id="cell"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="cell"></td>
+                <td  id="cell"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="cell"></td>
+                <td></td>
+                <td></td>
+                <td  id="cell"></td>
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td id="cell"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="cell"></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td id="cell"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td  id="cell"></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td id="cell"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td  id="cell"></td>                
+            </tr>
+
+        </table><br/>
+
+        <table id="tab2">
+            <caption style="color: red; background-color: yellow">newTableStyle</caption>
+            <tr>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                 
+            </tr>
+            <tr>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+
+        </table><br/>
+        
+        <table id="tab3">
+            <caption style="color: red; background-color: yellow">newTableStyle</caption>
+            <tr>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                 
+            </tr>
+            <tr>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td></td>                
+            </tr>
+            <tr>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                
+            </tr>
+
+        </table>
+    </body>
+</html>
